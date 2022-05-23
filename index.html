@@ -2,35 +2,96 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Disney+</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Netflix Brasil - assistir séries e filmes.
+  </title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="favicon.ico" />
 </head>
 
 <body>
-  <a class="btn" href="#">Entrar/Acessar</a>
-  <div class="hero-content">
-    <img class="logo" src="logo-nopad.svg" alt="Disney Plus">
-    <h1>Os Melhores Filme em um Só Lugar = )</h1>
-    <div class="precos-container">
-      <div class="preco">
+  <header class="header">
+    <img src="img/netflix.svg" alt="Netflix" draggable="false" />
+    <a href="#">Entrar</a>
+  </header>
+  <main class="main">
+    <div class="main-child">
+      <h1>Filmes, séries e muito mais Sem limites.</h1>
+      <span>Assista aonde e quando quiser =) <br>Cancele quando quiser.</span>
+      <form class="form-cta">
+        <input type="text" placeholder="Email" />
+        <button>Vamos lá</button>
+      </form>
+      <p>
+        <b>vamos Assistir?</b>
+      </p>
+    </div>
+    <div class="gradient"></div>
+  </main>
+  <section class="section">
+    <div class="container">
+      <div class="grid">
         <div>
-          <p><span>R$ 50,00</span>/mês*</p>
-          <p></p>Faça o Teste por 7 dias Grátis.</p>
+          <h1>Aproveite na sua TV.</h1>
+          <p>
+            Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+            Aparelhos de Blu-Ray entre outros aparelhos compativeis.
+          </p>
         </div>
-        <a href="#">Teste Grátis</a>
-      </div>
-      <div class="preco">
-        <p><span>De R$ 199,90 por R$ 100,00</span>/ano*</p>
-        <p>Faça o Teste Grátis por 7 dias.</p>
-        <a href="#">Teste Grátis</a>
+        <div class="img-tv">
+          <img src="img/tv.png" alt="TV" />
+          <video class="video-tv" autoplay playsinline muted loop>
+            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+              type="video/mp4" />
+          </video>
+        </div>
       </div>
     </div>
-    <p>*Oferta válida para o Brasil de 01/05/2020 a 01/06/2022.
-    </p>
-    <img class="franquias" src="disney-franchise-logos.png" alt="Logos">
-  </div>
+  </section>
+  <section class="download section">
+    <div class="container">
+      <div class="grid">
+        <div>
+          <h1>Baixe séries para assistir quando quiser.</h1>
+          <p>
+            Salve seus Filmes favoritos e sempre tenha algo para assistir.
+          </p>
+        </div>
+        <div class="img-tv">
+          <img src="img/el.jpg" alt="El" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="device-pile section">
+    <div class="container">
+      <div class="grid">
+        <div>
+          <h1>Assista quando quiser =)</h1>
+          <p>
+            Assista no celular, tablet, smart TV ou notebook sem pagar nada a mais
+            por isso.
+          </p>
+        </div>
+        <div class="img-tv">
+          <img src="img/device-pile.png" alt="Device Pile" />
+          <video class="video-tv" autoplay playsinline muted loop>
+            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+              type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <form class="form-cta">
+      <input type="text" placeholder="Email" />
+      <button>Vamos lá</button>
+    </form>
+    <p>Copyright © 2022 Netflix Brasil. Todos os direitos reservados viu.</p>
+  </footer>
 </body>
 
 </html>
